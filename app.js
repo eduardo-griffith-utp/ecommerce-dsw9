@@ -5,7 +5,7 @@ const port    = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Hello World - Eduardo Griffith</h1>
+    <h1>Hello World - Eduardo Griffith 2.0</h1>
     <p>La aplicacion funciona en Render.</p>
     <p>Puerto: ${port} | Entorno: ${process.env.NODE_ENV || 'development'}</p>
   `);
